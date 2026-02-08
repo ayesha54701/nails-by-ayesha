@@ -41,14 +41,13 @@ body {
 .hero {
   display: flex;
   width: 100%;
+  position: relative;
 }
 
 .hero img {
   width: 33.33%;
   aspect-ratio: 3 / 4;
-  object-fit: contain;
-    background-color: #f3d3dc;
-
+  object-fit: cover;
 }
 
 .hero-text {
