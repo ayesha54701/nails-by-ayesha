@@ -1,1 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial', sans-serif;
+}
 
+body {
+  background: linear-gradient(120deg, #fff5f8, #fdecef);
+  color: #333;
+}
+
+/* TOP BAR */
+.top-bar {
+  position: relative;
+  padding: 20px 40px;
+
+}
+.brand-name {
+  font-size: 42px;
+  color: #d16c8c;
+  text-align: center;
+}
+
+.insta-link {
+  text-decoration: none;
+  color: #d16c8c;
+  font-size: 26px;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+
+}
+
+.insta-icon {
+  width: 26px;
+  height: 26px;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.hero img {
+  width: 33.33%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px 40px;
+  font-size: 32px;
+  color: #c75b7a;
+  border-radius: 20px;
+}
+
+/* PRICES */
+.prices {
+  padding: 80px 40px;
+}
+
+.prices h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #c75b7a;
+}
+
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.price-box {
+  background: #ffffffcc;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.price-box h3 {
+  color: #d16c8c;
+  margin-bottom: 10px;
+}
+
+.price-box span {
+  font-size: 14px;
+  color: #777;
+}
+
+/* SOLID IMAGES */
+.solid-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.solid-images img {
+  width: 250px;
+  border-radius: 20px;
+}
