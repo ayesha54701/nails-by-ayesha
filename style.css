@@ -108,3 +108,69 @@ body {
   width: 250px;
   border-radius: 20px;
 }
+@media (max-width: 768px) {
+  /* Top bar: Reduce padding and font sizes for smaller screens */
+  .top-bar {
+    padding: 15px 20px;
+  }
+  .brand-name {
+    font-size: 28px; /* Smaller title */
+  }
+  .insta-link {
+    font-size: 20px;
+    right: 20px;
+    top: 15px;
+  }
+  .insta-icon {
+    width: 20px;
+    height: 20px;
+  }
+.hero {
+    flex-wrap: wrap; /* Allows wrapping to next line if needed, but aims for straight line */
+    height: auto; /* Scales height proportionally */
+  }
+  .hero img {
+    width: 33.33%; /* Keeps original proportion, but flex-wrap handles overflow */
+    height: auto;
+    display: block;
+  }
+  .hero-text {
+    font-size: 20px; /* Smaller for mobile readability */
+    padding: 15px 20px;
+  }
+
+  /* Prices section: Adjust padding and text */
+  .prices { padding: 40px 20px; }
+  .prices h2 {
+    font-size: 20px; /* Smaller heading for phone */
+    margin-bottom: 20px;
+  }
+  .price-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  /* Solid images: Keep horizontal row with wrapping */
+  .solid-images {
+    flex-direction: row; /* Horizontal */
+    flex-wrap: wrap; /* Wraps if too wide */
+    gap: 15px;
+    justify-content: center;
+  }
+  .solid-images img {
+    width: 100%; /* Scales within flex container */
+    max-width: 250px;
+  }
+
+  /* Bottom image section: Same as hero, keep horizontal */
+  .bottom-images {
+    display: flex !important; 
+    flex-wrap: wrap !important; /* Allows wrapping */
+    height: auto !important;
+  }
+  .bottom-images img {
+    width: 33.33% !important;
+    height: auto !important;
+    display: block !important;
+  }
+}
