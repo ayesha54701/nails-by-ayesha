@@ -114,10 +114,10 @@ body {
     padding: 15px 20px;
   }
   .brand-name {
-    font-size: 28px; /* Smaller title */
+    font-size: 24px; /* Smaller title */
   }
   .insta-link {
-    font-size: 20px;
+    font-size: 18px;
     right: 20px;
     top: 15px;
   }
@@ -135,14 +135,14 @@ body {
     display: block;
   }
   .hero-text {
-    font-size: 20px; /* Smaller for mobile readability */
+    font-size: 18px; /* Smaller for mobile readability */
     padding: 15px 20px;
   }
 
   /* Prices section: Adjust padding and text */
   .prices { padding: 40px 20px; }
   .prices h2 {
-    font-size: 20px; /* Smaller heading for phone */
+    font-size: 18px; /* Smaller heading for phone */
     margin-bottom: 20px;
   }
   .price-grid {
