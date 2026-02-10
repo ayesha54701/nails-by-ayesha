@@ -172,7 +172,7 @@ body {
     flex: 1 !important; /* Each image takes equal width in the row, fitting the screen */
     width: auto !important; /* Overrides inline width for flex control */
     height: auto !important; /* Maintains aspect ratio */
-    object-fit: cover !important; /* Ensures images are clear and not distorted */
+    object-fit: contain !important; /* Ensures images are clear and not distorted */
     display: block !important;
   }
 }
