@@ -46,7 +46,6 @@ body {
 
 .hero img {
   width: 33.33%;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -176,14 +175,4 @@ body {
     object-fit: cover !important; /* Ensures images are clear and not distorted */
     display: block !important;
   }
-}
-.bottom-images {
-  display: flex;
-  height: 400px;   
-}
-
-.bottom-images img {
-  width: 33.33%;
-  height: 100%;
-  object-fit: cover;
 }
