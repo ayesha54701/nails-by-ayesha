@@ -165,7 +165,7 @@ body {
   /* Bottom image section: Same as hero, keep horizontal */
   .bottom-images {
     display: flex !important; 
-    flex-wrap: wrap !important; /* Allows wrapping */
+    flex-wrap: nowrap !important; /* Allows wrapping */
     height: auto !important;
   }
   .bottom-images img {
