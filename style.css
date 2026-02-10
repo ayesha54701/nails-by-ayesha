@@ -40,12 +40,13 @@ body {
 /* HERO SECTION */
 .hero {
   display: flex;
-  height: 100vh;
+  height: 420px;
   position: relative;
 }
 
 .hero img {
   width: 33.33%;
+  height: 100%;
   object-fit: cover;
 }
 
