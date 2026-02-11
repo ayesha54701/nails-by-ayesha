@@ -174,7 +174,7 @@ body {
   .bottom-images img {
     flex: 1 1 33.33% !important; /* Each image takes equal width in the row, fitting the screen */
     width: 33.33% !important; /* Overrides inline width for flex control */
-    height: auto !important; /* Maintains aspect ratio */
+    height: [vlaue]px !important; /* Maintains aspect ratio */
     object-fit: contain !important; /* Ensures images are clear and not distorted */
     display: block !important;
     margin: 0 !important; /* Removes any default margins */
