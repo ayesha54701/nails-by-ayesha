@@ -169,11 +169,11 @@ body {
     height: auto !important;
     max-height: 50vh !important; 
   gap: 0px !important; /* No space between images */
-  width: 100vw !important;
+  width: 100%!important;
   }
   .bottom-images img {
-    flex: 1 !important; /* Each image takes equal width in the row, fitting the screen */
-    width: auto !important; /* Overrides inline width for flex control */
+    flex: 1 1 33.33% !important; /* Each image takes equal width in the row, fitting the screen */
+    width: 33.33% !important; /* Overrides inline width for flex control */
     height: auto !important; /* Maintains aspect ratio */
     object-fit: contain !important; /* Ensures images are clear and not distorted */
     display: block !important;
