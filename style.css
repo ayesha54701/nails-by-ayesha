@@ -177,5 +177,7 @@ body {
     height: auto !important; /* Maintains aspect ratio */
     object-fit: contain !important; /* Ensures images are clear and not distorted */
     display: block !important;
+    margin: 0 !important; /* Removes any default margins */
+  padding: 0 !important;
   }
 }
